@@ -7,7 +7,7 @@ export const restArray = [
     price: 910,
     type: 'Пицца',
     rest: 'Ресторан',
-    image: 'image-1.jpg',
+    image: 'rest-image-1.jpg',
   },
   {
     id: 1,
@@ -17,7 +17,7 @@ export const restArray = [
     price: 780,
     type: 'Пицца',
     rest: 'Ресторан',
-    image: 'image-2.jpg',
+    image: 'rest-image-2.jpg',
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const restArray = [
     price: 930,
     type: 'Пицца',
     rest: 'Ресторан',
-    image: 'image-3.jpg',
+    image: 'rest-image-3.jpg',
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ export const restArray = [
     price: 990,
     type: 'Пицца',
     rest: 'Ресторан',
-    image: 'image-4.jpg',
+    image: 'rest-image-4.jpg',
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ export const restArray = [
     price: 980,
     type: 'Пицца',
     rest: 'Ресторан',
-    image: 'image-5.jpg',
+    image: 'rest-image-5.jpg',
   },
   {
     id: 5,
@@ -57,6 +57,6 @@ export const restArray = [
     price: 615,
     type: 'Пицца',
     rest: 'Ресторан',
-    image: 'image-6.jpg',
+    image: 'rest-image-6.jpg',
   },
 ];

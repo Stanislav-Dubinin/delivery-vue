@@ -5,7 +5,7 @@ export const goodArray = [
     description: 'Рис, угорь, соус унаги, кунжут, водоросли нори.',
     price: 250,
     type: 'Роллы',
-    image: 'image-1.jpg',
+    image: 'good-image-1.jpg',
   },
   {
     id: 1,
@@ -13,7 +13,7 @@ export const goodArray = [
     description: 'Рис, лосось, авокадо, огурец, майонез, икра масаго, водоросли нори.',
     price: 275,
     type: 'Роллы',
-    image: 'image-2.jpg',
+    image: 'good-image-2.jpg',
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const goodArray = [
     description: 'Рис, креветка отварная, сыр сливочный, лосось, огурец свежий...',
     price: 290,
     type: 'Роллы',
-    image: 'image-3.jpg',
+    image: 'good-image-3.jpg',
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export const goodArray = [
     description: 'Рис, куриная грудка копченая, икра масаго, томат, айсберг, соус цезарь...',
     price: 370,
     type: 'Роллы',
-    image: 'image-4.jpg',
+    image: 'good-image-4.jpg',
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ export const goodArray = [
     description: 'Рис, помидор свежий, перец болгарский, авокадо, огурец, айсберг',
     price: 260,
     type: 'Роллы',
-    image: 'image-5.jpg',
+    image: 'good-image-5.jpg',
   },
   {
     id: 5,
@@ -45,6 +45,6 @@ export const goodArray = [
     description: 'Рис, водоросли нори, креветки отварные, сыр сливочный, огурцы',
     price: 310,
     type: 'Роллы',
-    image: 'image-6.jpg',
+    image: 'good-image-6.jpg',
   },
 ];
