@@ -24,7 +24,7 @@
         <div class="products-wrapper" id="rests-container">
           <router-link
             class="products-card"
-            v-for="rest in restArray"
+            v-for="rest in store.rests"
             :key="rest.id"
             :to="`/goods?id=${rest.id}`"
           >
@@ -55,6 +55,6 @@
 </template>
 
 <script setup>
-import { restArray } from '@/constants/rests';
+import { store } from '@/store/index';
 import { getUrl } from '@/utils/get-url';
 </script>

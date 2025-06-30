@@ -1,5 +1,5 @@
 <script setup>
-import { goodArray } from '@/constants/goods';
+import { store } from '@/store/index';
 import { getUrl } from '@/utils/get-url';
 </script>
 
@@ -7,7 +7,7 @@ import { getUrl } from '@/utils/get-url';
   <section class="products-page">
     <div class="container">
       <div class="products-wrapper" id="goods-container">
-        <div class="products-card" v-for="good in goodArray" :key="good.id">
+        <div class="products-card" v-for="good in store.goods" :key="good.id">
           <div class="products-card__image">
             <img :src="getUrl(good.image, 'goods')" :alt="`${good.type}: ${good.name}`" />
           </div>
@@ -35,5 +35,3 @@ import { getUrl } from '@/utils/get-url';
     </div>
   </section>
 </template>
-
-<style scoped></style>
